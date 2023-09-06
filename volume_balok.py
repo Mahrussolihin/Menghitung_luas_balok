@@ -50,6 +50,7 @@ Nama = "Mahrus Solihin"
 print(Nama, "Tipe", type(Nama))
 NIM = 230441100032
 print(NIM, "Tipe", type(NIM))
+print()
 
 print("Diketahui")
 print("Panjang Balok = 24 cm")
@@ -65,6 +66,7 @@ Rumus_volume = p*l*t
 def volume(p, l, t):
     hasil = 24 * 18 * 10
     return hasil
+print()
 print("Volume balok adalah =", volume(p, l, t),"cm")
 print("============================")
 print()
